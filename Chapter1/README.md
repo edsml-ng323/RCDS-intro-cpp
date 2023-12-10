@@ -206,7 +206,7 @@ For obtaining the updated versions it will be enought to perform a `pull`, i.e.:
 ~$ git pull
 ```
 
-## Hello World in C++
+## Hello world in C++
 
 * Open up VSCode and write the following syntax:
 ```c++
