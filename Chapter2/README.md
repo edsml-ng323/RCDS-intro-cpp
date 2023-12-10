@@ -17,9 +17,11 @@ In C++, like in any other programming languages, variables have *types*, such as
 Let's do some exercises to see how different variables and data types can be manipulated.
 * Join in the following syntax in a C++ file, and save it as `variables.cpp`:
 ```c++
+// Import libraries
 #include <iostream>
 using namespace std;
 
+// Main function
 int main() {
 
     // Declare variables
@@ -44,9 +46,11 @@ Your turn:
 
 * Join in the following syntax in a C++ file:
 ```c++
+// Import libraries
 #include <iostream>
 using namespace std;
 
+// Main function
 int main() {
 
     // Declare variables
@@ -75,10 +79,12 @@ The next step is not only declaring variables and assigning values, but also to 
 Let's write a script that asks the user to input some variables from the keyboard, and then perform some operations with them.
 * Join in the following syntax in a C++ file, and save it as `height.cpp`. Note that we're going to use strings here, which need the `<string>` library.
 ```c++
+// Import libraries
 #include <iostream>
 #include <string>
 using namespace std;
 
+// Main function
 int main() {
 
     // Declare variables
@@ -112,10 +118,12 @@ Your turn:
 Once we know how to deal with variables, and input / output them, we are ready to perform some computations.
 * Join in the following syntax in a C++ file, and save it as `calculator.cpp`. From now on we will need to include the `<cmath>` library.
 ```c++
+// Import libraries
 #include <iostream>
 #include <cmath>
 using namespace std;
 
+// Main function
 int main() {
 
     // Declare variables
