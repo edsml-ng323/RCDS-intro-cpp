@@ -10,10 +10,10 @@ int main() {
 
   // Declare variables
   fstream f;
-  double num;
+  double num, mean;
   double sum = 0.0, n = 0.0; 
 
-  // Ope file
+  // Open file
   f.open("data.dat", ios::in);
   if (!f.good()) {
 
@@ -34,8 +34,19 @@ int main() {
   f.close();
 
   // Compute mean
-  cout << "Mean = " << sum / n << endl;
   
+  cout << "Mean = " << sum / n << endl;
+
+  // Declare variables
+  ofstream f2;
+
+  // Open file and write a message
+  f2.open ("results.txt");
+  f2 << "Mean value:" << mean << endl;
+
+  // Close file
+  f2.close();
+
   return 0;
 
 }
